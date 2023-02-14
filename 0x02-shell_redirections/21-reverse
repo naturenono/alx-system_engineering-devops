@@ -1,2 +1,3 @@
 #!/bin/bash
-rev
+read -p "Enter a string: " input_str
+echo "$input_str" | rev
